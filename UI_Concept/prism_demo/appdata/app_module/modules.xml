@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<modules>
+  <module assembly="Module.PA.dll"/>
+  <module assembly="Module.PR.dll"/>
+  <module assembly="Module.Views.dll"/>
+  <module assembly="Module.Ref.dll"/>
+</modules>

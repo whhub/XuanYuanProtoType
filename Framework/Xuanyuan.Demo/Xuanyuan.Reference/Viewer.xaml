@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="Xuanyuan.Reference.Viewer" x:Name="_self"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="300" d:DesignWidth="300" Width="{Binding ElementName=_self,Path=ActualHeight}">
+    <Grid>
+        <Border Background="LightGray">
+        <Canvas x:Name="mycanvas">
+                <Line X1="0" Y1="0" X2="{Binding ElementName=mycanvas,Path=ActualWidth}" Y2="{Binding ElementName=mycanvas,Path=ActualHeight}" Stroke="White" StrokeThickness="3"></Line>
+
+                <Line X1="{Binding ElementName=mycanvas,Path=ActualWidth}" Y1="0" X2="0" Y2="{Binding ElementName=mycanvas,Path=ActualHeight}" Stroke="White" StrokeThickness="3"></Line>
+            </Canvas>
+        </Border>
+    </Grid>
+</UserControl>

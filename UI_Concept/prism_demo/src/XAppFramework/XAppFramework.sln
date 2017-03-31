@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAppFramework", "XAppFramework\XAppFramework.csproj", "{82C4DA34-9C7E-4A2A-AD64-C119842285A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boot", "Boot\Boot.csproj", "{E30937DF-C3DE-42A2-8B45-8B88C27F7DDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.PA", "Module.PA\Module.PA.csproj", "{95511E56-9AE1-4EEF-B5D8-DFB46C5D194A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.Views", "Module.Views\Module.Views.csproj", "{ADD863AF-0E1C-4E5A-8497-2F34A6D10A34}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.PR", "Module.PR\Module.PR.csproj", "{D07B191C-4DD5-42D2-B38E-E6C794F450D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XAppFramework.Shared", "XAppFramework.Common\XAppFramework.Shared.csproj", "{82F1AE1E-6A35-428B-9E27-7CEAA4FFB37A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.Ref", "Module.Ref\Module.Ref.csproj", "{8FAA4E8F-6731-4B62-8A57-F95DA5FCCD23}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.united-imaging.com:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Boot\\Boot.csproj
+		SccProjectName1 = Boot
+		SccLocalPath1 = Boot
+		SccProjectUniqueName2 = Module.PA\\Module.PA.csproj
+		SccProjectName2 = Module.PA
+		SccLocalPath2 = Module.PA
+		SccProjectUniqueName3 = Module.PR\\Module.PR.csproj
+		SccProjectName3 = Module.PR
+		SccLocalPath3 = Module.PR
+		SccProjectUniqueName4 = Module.Ref\\Module.Ref.csproj
+		SccProjectName4 = Module.Ref
+		SccLocalPath4 = Module.Ref
+		SccProjectUniqueName5 = Module.Views\\Module.Views.csproj
+		SccProjectName5 = Module.Views
+		SccLocalPath5 = Module.Views
+		SccProjectUniqueName6 = XAppFramework.Common\\XAppFramework.Shared.csproj
+		SccProjectName6 = XAppFramework.Common
+		SccLocalPath6 = XAppFramework.Common
+		SccProjectUniqueName7 = XAppFramework\\XAppFramework.csproj
+		SccProjectName7 = XAppFramework
+		SccLocalPath7 = XAppFramework
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{82C4DA34-9C7E-4A2A-AD64-C119842285A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82C4DA34-9C7E-4A2A-AD64-C119842285A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82C4DA34-9C7E-4A2A-AD64-C119842285A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82C4DA34-9C7E-4A2A-AD64-C119842285A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E30937DF-C3DE-42A2-8B45-8B88C27F7DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E30937DF-C3DE-42A2-8B45-8B88C27F7DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E30937DF-C3DE-42A2-8B45-8B88C27F7DDB}.Release|Any CPU.ActiveCfg = Release|x86
+		{95511E56-9AE1-4EEF-B5D8-DFB46C5D194A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95511E56-9AE1-4EEF-B5D8-DFB46C5D194A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95511E56-9AE1-4EEF-B5D8-DFB46C5D194A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95511E56-9AE1-4EEF-B5D8-DFB46C5D194A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADD863AF-0E1C-4E5A-8497-2F34A6D10A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD863AF-0E1C-4E5A-8497-2F34A6D10A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD863AF-0E1C-4E5A-8497-2F34A6D10A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD863AF-0E1C-4E5A-8497-2F34A6D10A34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D07B191C-4DD5-42D2-B38E-E6C794F450D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07B191C-4DD5-42D2-B38E-E6C794F450D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07B191C-4DD5-42D2-B38E-E6C794F450D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07B191C-4DD5-42D2-B38E-E6C794F450D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F1AE1E-6A35-428B-9E27-7CEAA4FFB37A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F1AE1E-6A35-428B-9E27-7CEAA4FFB37A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F1AE1E-6A35-428B-9E27-7CEAA4FFB37A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F1AE1E-6A35-428B-9E27-7CEAA4FFB37A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FAA4E8F-6731-4B62-8A57-F95DA5FCCD23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAA4E8F-6731-4B62-8A57-F95DA5FCCD23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAA4E8F-6731-4B62-8A57-F95DA5FCCD23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAA4E8F-6731-4B62-8A57-F95DA5FCCD23}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

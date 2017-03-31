@@ -1,0 +1,134 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEnvironment.Platform.Common", "MyEnviroment.Platform.Common\MyEnvironment.Platform.Common.csproj", "{7294DB8C-4CE6-432A-9E8F-E656953085AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEnvironment.View", "MyEnvironment.View\MyEnvironment.View.csproj", "{3720FF40-ED57-4BE6-AAE5-98E0A1BCDF81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEnvironment.Plugins.PluginOne", "MyEnvironment.Plugins.PluginOne\MyEnvironment.Plugins.PluginOne.csproj", "{CCB3420B-4915-4111-8629-BBCF361FACBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platform", "Platform", "{0A5380FB-B5BC-4F9F-A68A-261A464FBF27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Plugins", "Plugins", "{25EC4F8C-BD25-4BB4-8117-639FBD60B738}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Views", "Views", "{E929EBA4-56CA-4178-BB3D-A0ED3B169641}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEnvironment.AppOne", "MyEnvironment.AppOne\MyEnvironment.AppOne.csproj", "{9781167B-D0CA-40D0-80E3-EE36C53F91BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEnvironment.Plugins.PluginTwo", "MyEnvironment.Plugins.PluginTwo\MyEnvironment.Plugins.PluginTwo.csproj", "{66BF387D-3D14-4731-AE3C-8154C10FEC5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEnvironment.Plugins.PluginThree", "MyEnvironment.Plugins.PluginThree\MyEnvironment.Plugins.PluginThree.csproj", "{A73B5037-96BC-4EBE-9691-15E67362AFFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEnvironment.Plugins.PluginFour", "MyEnvironment.Plugins.PluginFour\MyEnvironment.Plugins.PluginFour.csproj", "{5A2D20BC-C6A9-43AF-AA7B-2E21C61F6D13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEnvironment.AppTwo", "MyEnvironment.AppTwo\MyEnvironment.AppTwo.csproj", "{FA94AA4E-B0F6-415D-8E77-606BB147EDCC}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MyEnviroment.Platform.Common\\MyEnvironment.Platform.Common.csproj
+		SccProjectTopLevelParentUniqueName1 = MyEnvironment.sln
+		SccProjectName1 = MyEnviroment.Platform.Common
+		SccLocalPath1 = MyEnviroment.Platform.Common
+		SccProjectUniqueName2 = MyEnvironment.AppOne\\MyEnvironment.AppOne.csproj
+		SccProjectName2 = MyEnvironment.AppOne
+		SccLocalPath2 = MyEnvironment.AppOne
+		SccProjectUniqueName3 = MyEnvironment.AppTwo\\MyEnvironment.AppTwo.csproj
+		SccProjectName3 = MyEnvironment.AppTwo
+		SccLocalPath3 = MyEnvironment.AppTwo
+		SccProjectUniqueName4 = MyEnvironment.Plugins.PluginFour\\MyEnvironment.Plugins.PluginFour.csproj
+		SccProjectTopLevelParentUniqueName4 = MyEnvironment.sln
+		SccProjectName4 = MyEnvironment.Plugins.PluginFour
+		SccLocalPath4 = MyEnvironment.Plugins.PluginFour
+		SccProjectUniqueName5 = MyEnvironment.Plugins.PluginOne\\MyEnvironment.Plugins.PluginOne.csproj
+		SccProjectTopLevelParentUniqueName5 = MyEnvironment.sln
+		SccProjectName5 = MyEnvironment.Plugins.PluginOne
+		SccLocalPath5 = MyEnvironment.Plugins.PluginOne
+		SccProjectUniqueName6 = MyEnvironment.Plugins.PluginThree\\MyEnvironment.Plugins.PluginThree.csproj
+		SccProjectTopLevelParentUniqueName6 = MyEnvironment.sln
+		SccProjectName6 = MyEnvironment.Plugins.PluginThree
+		SccLocalPath6 = MyEnvironment.Plugins.PluginThree
+		SccProjectUniqueName7 = MyEnvironment.Plugins.PluginTwo\\MyEnvironment.Plugins.PluginTwo.csproj
+		SccProjectTopLevelParentUniqueName7 = MyEnvironment.sln
+		SccProjectName7 = MyEnvironment.Plugins.PluginTwo
+		SccLocalPath7 = MyEnvironment.Plugins.PluginTwo
+		SccProjectUniqueName8 = MyEnvironment.View\\MyEnvironment.View.csproj
+		SccProjectTopLevelParentUniqueName8 = MyEnvironment.sln
+		SccProjectName8 = MyEnvironment.View
+		SccLocalPath8 = MyEnvironment.View
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7294DB8C-4CE6-432A-9E8F-E656953085AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7294DB8C-4CE6-432A-9E8F-E656953085AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7294DB8C-4CE6-432A-9E8F-E656953085AE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7294DB8C-4CE6-432A-9E8F-E656953085AE}.Debug|x64.Build.0 = Debug|Any CPU
+		{7294DB8C-4CE6-432A-9E8F-E656953085AE}.Release|Any CPU.ActiveCfg = Release|x86
+		{7294DB8C-4CE6-432A-9E8F-E656953085AE}.Release|x64.ActiveCfg = Release|x86
+		{3720FF40-ED57-4BE6-AAE5-98E0A1BCDF81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3720FF40-ED57-4BE6-AAE5-98E0A1BCDF81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3720FF40-ED57-4BE6-AAE5-98E0A1BCDF81}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3720FF40-ED57-4BE6-AAE5-98E0A1BCDF81}.Debug|x64.Build.0 = Debug|Any CPU
+		{3720FF40-ED57-4BE6-AAE5-98E0A1BCDF81}.Release|Any CPU.ActiveCfg = Release|x86
+		{3720FF40-ED57-4BE6-AAE5-98E0A1BCDF81}.Release|x64.ActiveCfg = Release|x86
+		{CCB3420B-4915-4111-8629-BBCF361FACBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB3420B-4915-4111-8629-BBCF361FACBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB3420B-4915-4111-8629-BBCF361FACBE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CCB3420B-4915-4111-8629-BBCF361FACBE}.Debug|x64.Build.0 = Debug|Any CPU
+		{CCB3420B-4915-4111-8629-BBCF361FACBE}.Release|Any CPU.ActiveCfg = Release|x86
+		{CCB3420B-4915-4111-8629-BBCF361FACBE}.Release|x64.ActiveCfg = Release|x86
+		{9781167B-D0CA-40D0-80E3-EE36C53F91BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9781167B-D0CA-40D0-80E3-EE36C53F91BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9781167B-D0CA-40D0-80E3-EE36C53F91BB}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9781167B-D0CA-40D0-80E3-EE36C53F91BB}.Debug|x64.Build.0 = Debug|Any CPU
+		{9781167B-D0CA-40D0-80E3-EE36C53F91BB}.Release|Any CPU.ActiveCfg = Release|x86
+		{9781167B-D0CA-40D0-80E3-EE36C53F91BB}.Release|x64.ActiveCfg = Release|x86
+		{66BF387D-3D14-4731-AE3C-8154C10FEC5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66BF387D-3D14-4731-AE3C-8154C10FEC5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66BF387D-3D14-4731-AE3C-8154C10FEC5F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{66BF387D-3D14-4731-AE3C-8154C10FEC5F}.Debug|x64.Build.0 = Debug|Any CPU
+		{66BF387D-3D14-4731-AE3C-8154C10FEC5F}.Release|Any CPU.ActiveCfg = Release|x86
+		{66BF387D-3D14-4731-AE3C-8154C10FEC5F}.Release|x64.ActiveCfg = Release|x86
+		{A73B5037-96BC-4EBE-9691-15E67362AFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A73B5037-96BC-4EBE-9691-15E67362AFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A73B5037-96BC-4EBE-9691-15E67362AFFE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A73B5037-96BC-4EBE-9691-15E67362AFFE}.Debug|x64.Build.0 = Debug|Any CPU
+		{A73B5037-96BC-4EBE-9691-15E67362AFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A73B5037-96BC-4EBE-9691-15E67362AFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A73B5037-96BC-4EBE-9691-15E67362AFFE}.Release|x64.ActiveCfg = Release|Any CPU
+		{A73B5037-96BC-4EBE-9691-15E67362AFFE}.Release|x64.Build.0 = Release|Any CPU
+		{5A2D20BC-C6A9-43AF-AA7B-2E21C61F6D13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A2D20BC-C6A9-43AF-AA7B-2E21C61F6D13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A2D20BC-C6A9-43AF-AA7B-2E21C61F6D13}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5A2D20BC-C6A9-43AF-AA7B-2E21C61F6D13}.Debug|x64.Build.0 = Debug|Any CPU
+		{5A2D20BC-C6A9-43AF-AA7B-2E21C61F6D13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A2D20BC-C6A9-43AF-AA7B-2E21C61F6D13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A2D20BC-C6A9-43AF-AA7B-2E21C61F6D13}.Release|x64.ActiveCfg = Release|Any CPU
+		{5A2D20BC-C6A9-43AF-AA7B-2E21C61F6D13}.Release|x64.Build.0 = Release|Any CPU
+		{FA94AA4E-B0F6-415D-8E77-606BB147EDCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA94AA4E-B0F6-415D-8E77-606BB147EDCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA94AA4E-B0F6-415D-8E77-606BB147EDCC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FA94AA4E-B0F6-415D-8E77-606BB147EDCC}.Debug|x64.Build.0 = Debug|Any CPU
+		{FA94AA4E-B0F6-415D-8E77-606BB147EDCC}.Release|Any CPU.ActiveCfg = Release|x86
+		{FA94AA4E-B0F6-415D-8E77-606BB147EDCC}.Release|x64.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7294DB8C-4CE6-432A-9E8F-E656953085AE} = {0A5380FB-B5BC-4F9F-A68A-261A464FBF27}
+		{3720FF40-ED57-4BE6-AAE5-98E0A1BCDF81} = {E929EBA4-56CA-4178-BB3D-A0ED3B169641}
+		{CCB3420B-4915-4111-8629-BBCF361FACBE} = {25EC4F8C-BD25-4BB4-8117-639FBD60B738}
+		{66BF387D-3D14-4731-AE3C-8154C10FEC5F} = {25EC4F8C-BD25-4BB4-8117-639FBD60B738}
+		{A73B5037-96BC-4EBE-9691-15E67362AFFE} = {25EC4F8C-BD25-4BB4-8117-639FBD60B738}
+		{5A2D20BC-C6A9-43AF-AA7B-2E21C61F6D13} = {25EC4F8C-BD25-4BB4-8117-639FBD60B738}
+	EndGlobalSection
+EndGlobal

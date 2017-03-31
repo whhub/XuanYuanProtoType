@@ -1,0 +1,10 @@
+﻿<Window x:Class="MyUIDemo.Component.ExamLM"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:my="clr-namespace:MyUIDemo.Controls;assembly=MyUIDemo.Controls"  
+        xmlns:control="clr-namespace:MyUIDemo.Controls;assembly=MyUIDemo.Controls" 
+        Title="ExamLM" Height="350" Width="525">
+    <Grid x:Name="mainGrid">
+        
+    </Grid>
+</Window>

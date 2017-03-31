@@ -1,0 +1,7 @@
+<view-registry-config>
+    <views>
+        <view name="PAView" region="LeftMainRegion" data-context-name="PAViewModel"/>
+        <view name="PRView" region="LeftMainRegion" data-context-name="PRViewModel"/>
+		<view name="RefView" region="RightMainRegion" data-context-name="RefViewModel"/>
+    </views>
+</view-registry-config>

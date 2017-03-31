@@ -1,0 +1,79 @@
+﻿<Window x:Class="SoftKeyboard.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        MouseDown="Window_MouseDown"
+        MouseUp="Window_MouseUp"
+        Loaded="Window_Loaded"
+        Unloaded="Window_Unloaded"
+        Title="MainWindow" Height="300" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="80"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <TextBlock Name="Candidates"></TextBlock>
+        
+        <UniformGrid Rows="5" Columns="14" Grid.Row="1">
+            <TextBlock>~</TextBlock>
+            <TextBlock>1</TextBlock>
+            <TextBlock>2</TextBlock>
+            <TextBlock>3</TextBlock>
+            <TextBlock>4</TextBlock>
+            <TextBlock>5</TextBlock>
+            <TextBlock>6</TextBlock>
+            <TextBlock>7</TextBlock>
+            <TextBlock>8</TextBlock>
+            <TextBlock>9</TextBlock>
+            <TextBlock>0</TextBlock>
+            <TextBlock>-</TextBlock>
+            <TextBlock>=</TextBlock>
+            <TextBlock>DEL</TextBlock>
+            <TextBlock>Tab</TextBlock>
+            <TextBlock>Q</TextBlock>
+            <TextBlock>W</TextBlock>
+            <TextBlock>E</TextBlock>
+            <TextBlock>R</TextBlock>
+            <TextBlock>T</TextBlock>
+            <TextBlock>Y</TextBlock>
+            <TextBlock>U</TextBlock>
+            <TextBlock>I</TextBlock>
+            <TextBlock>O</TextBlock>
+            <TextBlock>P</TextBlock>
+            <TextBlock>[</TextBlock>
+            <TextBlock>]</TextBlock>
+            <TextBlock>|</TextBlock>
+            <TextBlock>Cap</TextBlock>
+            <TextBlock>A</TextBlock>
+            <TextBlock>S</TextBlock>
+            <TextBlock>D</TextBlock>
+            <TextBlock>F</TextBlock>
+            <TextBlock>G</TextBlock>
+            <TextBlock>H</TextBlock>
+            <TextBlock>J</TextBlock>
+            <TextBlock>K</TextBlock>
+            <TextBlock>L</TextBlock>
+            <TextBlock>;</TextBlock>
+            <TextBlock>'</TextBlock>
+            <TextBlock>Enter</TextBlock>
+            <TextBlock></TextBlock>
+            <TextBlock>Shift</TextBlock>
+            <TextBlock>Z</TextBlock>
+            <TextBlock>X</TextBlock>
+            <TextBlock>C</TextBlock>
+            <TextBlock>V</TextBlock>
+            <TextBlock>B</TextBlock>
+            <TextBlock>N</TextBlock>
+            <TextBlock>M</TextBlock>
+            <TextBlock>,</TextBlock>
+            <TextBlock>.</TextBlock>
+            <TextBlock>/</TextBlock>
+            <TextBlock>'</TextBlock>
+            <TextBlock>Shift</TextBlock>
+            <TextBlock></TextBlock>
+            <TextBlock>Ctrl</TextBlock>
+            <TextBlock>Alt</TextBlock>
+            <TextBlock>SPACE</TextBlock>
+        </UniformGrid>
+    </Grid>
+</Window>

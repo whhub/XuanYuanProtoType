@@ -1,0 +1,9 @@
+﻿<Window x:Class="XAppFramework.LeftWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://www.codeplex.com/prism"
+        Title="LeftWindow" Height="300" Width="300">
+    <Grid>
+        <ContentControl prism:RegionManager.RegionName="LeftMainRegion"/>
+    </Grid>
+</Window>

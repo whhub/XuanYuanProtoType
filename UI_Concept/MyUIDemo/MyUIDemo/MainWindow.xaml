@@ -1,0 +1,18 @@
+﻿<Window x:Class="MyUIDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:my="clr-namespace:MyUIDemo.Controls;assembly=MyUIDemo.Controls"  
+        Title="MainWindow" Height="350" Width="525">
+    <Grid x:Name="mainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Button Width="100" Height="30" Click="Button_Click"></Button>
+        
+        <TextBox x:Name="txtContent" Grid.Row="1">
+            
+        </TextBox>
+        
+    </Grid>
+</Window>

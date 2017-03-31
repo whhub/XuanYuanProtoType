@@ -1,0 +1,64 @@
+﻿<UserControl x:Class="MyUIDemo.Controls.Examination"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="1000" d:DesignWidth="100">
+    <UserControl.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Height" Value="30"></Setter>
+            <Setter Property="Width" Value="80"></Setter>
+            <Setter Property="FontSize" Value="10"></Setter>
+            <Setter Property="Margin" Value="10"></Setter>
+        </Style>
+    </UserControl.Resources>
+    <ScrollViewer x:Name="s1" VerticalScrollBarVisibility="Auto">
+    <Grid Width="{Binding ElementName=s1,Path=ActualWidth}" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition />            
+        </Grid.RowDefinitions>
+
+        <Expander Background="LightBlue">
+            <ItemsControl>
+                <ItemsControl.Items>
+                    <TextBlock>Exam Text</TextBlock>
+                    <Button Height="28">GroupA 1</Button>
+                    <Button Height="28">GroupA 2</Button>
+                </ItemsControl.Items>
+            </ItemsControl>
+        </Expander>
+            <Expander Grid.Row="1" Background="LightCoral">
+            <ItemsControl>
+                <ItemsControl.Items>
+                    <TextBlock>Exam Text</TextBlock>
+                    <Button Height="28">GroupB 1</Button>
+                    <Button Height="28">GroupB 2</Button>
+                    <Button Height="28">GroupB 3</Button>
+                    <Button Height="28">GroupB 4</Button>
+                </ItemsControl.Items>
+            </ItemsControl>
+        </Expander>
+        
+        <WrapPanel Grid.Row="2">
+            <WrapPanel.Resources>
+
+            </WrapPanel.Resources>
+            
+            <Button Click="Button_Click">Func 1</Button>
+            <Button>Func 2</Button>
+            <Button>Func 3</Button>
+            <Button>Func 4</Button>
+            <Button>Func 5</Button>
+            <Button>Func 6</Button>
+            <Button>Func 7</Button>
+            <Button>Func 8</Button>
+            
+            
+        </WrapPanel>
+        
+    </Grid>
+    </ScrollViewer>
+</UserControl>
